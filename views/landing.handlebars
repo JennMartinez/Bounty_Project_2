@@ -1,0 +1,73 @@
+<div>
+{{!-- Smoking Gun --}}
+    <ul class="smoking_gun">
+        <div class="listings">
+            <li class="a"></li>
+        </div>
+        <div class="listings">
+            <li class="b"></li>
+        </div>
+        <div class="listings">
+            <li class="c"></li>
+        </div>
+        <div class="listings">
+            <li class="d"></li>
+        </div>
+        <div class="listings">
+            <li class="e"></li>
+        </div>
+        <div class="listings">
+            <li class="f"></li>
+        </div>
+        <div class="listings">
+            <li class="g"></li>
+        </div>
+        <div class="listings">
+            <li class="h"></li>
+        </div>
+        <div class="listings">
+            <li class="i"></li>
+        </div>
+        <div class="listings">
+            <li class="j"></li>
+        </div>
+        <div class="listings">
+            <li class="k"></li>
+        </div>
+        <div class="listings">
+            <li class="l"></li>
+        </div>
+        <div class="listings">
+            <li class="m"></li>
+        </div>
+        <div class="listings">
+            <li class="n"></li>
+        </div>
+        <div class="listings">
+            <li class="o"></li>
+        </div>
+        <div class="listings">
+            <li class="p"></li>
+        </div>
+        <div class="listings">
+            <li class="q"></li>
+        </div>
+    </ul>
+    <div class="relative"><p>BOUNTY</p></div>
+    <!-- Audio for rendering LANDING page-->
+    <audio loop id="myAudio"><source src="../public/audio/landing_theme.mp3" type="audio/mpeg"></audio>
+    <br>
+    <br>
+    <br>
+    <div id="text">
+        <p>CREATE . DELIVER . COLLECT</p>
+    </div>
+    <!-- Submit CREATE Bounty Button with Audio -->
+    <form action='/add' method='POST' class="landingForm">
+    <button id="create" onclick="javascript:playSound('cartoon_ricochet.mp3')">Create Bounty</button>
+    </form>
+    {{!-- onclick="javascript:playSound('cartoon_ricochet.mp3'); --}}
+    <form action='/display' method='POST'class="landingForm">
+    <button id="bounty" onclick="javascript:playSound('cartoon_ricochet.mp3');">Wanted</button>
+    </form>
+</div>
