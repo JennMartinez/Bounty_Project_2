@@ -14,14 +14,14 @@ Once deployed, the app will display the landing page, and will allow the user to
 
 **Below is a screenshot of the landing page.**
 
-![Image of landing](public/assets/images/landing.jpg)
+![Image of landing](public/images/landing.jpg)
 
 **Below is a screenshot of the "Create A Bounty" page, which will give you the option to fill-in the areas to post the task/errand that the user wishes to post on the "Wanted" page.**
 
-![Image of create a bounty](public/assets/images/create_bounty.jpg)
+![Image of create a bounty](public/images/create_bounty.jpg)
 
 **Below is a screenshot of the "Wanted" page. This page displays the different bounties that are available, in progress, and completed.**
 
-![Image of wanted](public/assets/images/wanted.jpg)
+![Image of wanted](public/images/wanted.jpg)
 
 
